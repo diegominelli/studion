@@ -24,6 +24,7 @@ ul {
 
 .navbar {
   position: fixed;
+  z-index: 1;
   display: grid;
   grid-template-columns: 1fr 9fr;
   align-items: center;
@@ -74,15 +75,45 @@ justify-self: end;
 }
 
 #slider {
-  height: calc(100vh - 7.75rem);
   background-color: #000;
-  background-image: url('./images//banner.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   color: #FFF;
-  padding: var(--default-padding);
 }
+
+.slide {
+  position: relative;
+  height: calc(100vh - 7.75rem);
+}
+
+.slide-background-image {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.slide-copy {
+  position: absolute;
+  top: 6.25rem;
+  left: 50vw;
+}
+
+.slide-copy h6 {
+  font-size: .9375rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: .1875rem;
+}
+
+.slide-copy h2 {
+  font-size: 6.25rem;
+  text-transform: uppercase;
+  line-height: 6.25rem;
+}
+
+.slide-copy h2 span {
+  display: block;
+}
+
+
 
 
 
