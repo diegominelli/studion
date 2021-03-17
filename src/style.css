@@ -92,7 +92,7 @@ justify-self: end;
 
 .slide-copy {
   position: absolute;
-  top: 6.25rem;
+  top: 3.25rem;
   left: 50vw;
 }
 
@@ -107,10 +107,32 @@ justify-self: end;
   font-size: 6.25rem;
   text-transform: uppercase;
   line-height: 6.25rem;
+  margin-top: .625rem;
 }
 
 .slide-copy h2 span {
   display: block;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 1rem 2.5rem;
+  border: .125rem solid #FFF;
+  border-radius: 5rem;
+  color: var(--color-primary);
+  background: unset;
+  font-size: .9375rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  transform: 0.5s all ease;  
+}
+
+.btn:hover, 
+.btn:active, 
+.btn:focus {
+  border-color: var(--color-primary);
+  background-color: var(--color-primary);
+  color: #FFF;
 }
 
 
