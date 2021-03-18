@@ -24,6 +24,11 @@ footer {
   overflow-x: hidden;
 }
 
+.container {
+  max-width: 1140px;
+  margin: 0px auto;
+}
+
 ul {
   display: flex;
   list-style: none;
@@ -33,16 +38,20 @@ ul {
 .navbar {
   position: fixed;
   z-index: 1;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: #000;
+  color: #FFF;
+}
+
+.navbar-container {
   display: grid;
   grid-template-columns: 1fr 9fr;
   align-items: center;
-  top: 0px;
-  left: 0px;
   width: 100vw;
   height: 7.75rem;
   padding: 0 1rem;
-  background-color: #000;
-  color: #FFF;
 }
 
 .navbar-links {
@@ -154,7 +163,6 @@ justify-self: end;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   place-items: center;
-  margin: 0px;
   padding: 4.375rem 1rem;
 }
 
@@ -173,6 +181,10 @@ justify-self: end;
   gap: 3.125rem;
   align-items: center;
   padding: 4.375rem;
+}
+
+.institutional-image {
+  max-width: 550px;
 }
 
 .institutional-copy {
