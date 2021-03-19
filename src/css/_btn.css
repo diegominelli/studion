@@ -14,15 +14,21 @@
 .btn:hover,
 .btn:active,
 .btn:focus,
-.btn-institutional {
+.btn-institutional,
+.btn-contact {
   border-color: var(--color-primary);
   background-color: var(--color-primary);
   color: #FFF;
 }
 
-.btn-institutional:hover {
+.btn-institutional,
+.btn-contact:hover {
   color: var(--color-copy);
   background: unset;
+}
+
+.btn-contact:hover {
+  color: #FFF;
 }
 
 .btn-quote {
