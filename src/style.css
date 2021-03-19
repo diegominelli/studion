@@ -269,7 +269,7 @@ padding: 0 1.875rem;
 .footer {
   background-color: #000;
   color: #FFF;
-  padding: 0 1rem;
+  text-align: center;
 }
 
 .footer-container {
@@ -299,6 +299,7 @@ padding: 0 1.875rem;
 .footer-form label {
   font-size: .875rem;
   font-weight: 300;
+  line-height: 1rem;
 }
 
 .footer-form-email {
@@ -320,14 +321,8 @@ padding: 0 1.875rem;
   color: #000;
 }
 
-.footer-form input:focus {
-  outline: unset;
-}
-
 .footer-form button {
   cursor: pointer;
-  border: unset;
-  height: 100%;
   transition: 0.3s all ease;
 }
 
@@ -337,6 +332,9 @@ padding: 0 1.875rem;
 }
 
 .footer-social {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 0.5rem;
   justify-self: end;
 }
 
@@ -347,21 +345,11 @@ padding: 0 1.875rem;
   margin-left: 0.2rem;
 }
 
-.footer-social a .fa-twitter,
-.footer-social a:visited .fa-twitter,
-.footer-social a:active .fa-twitter {
+.footer-social .fa-twitter {
   color: #000;
 }
 
-.footer hr {
-  border-color: #FFF4;
-  margin: 0px;
-}
-
 .footer p {
-  text-align: center;
-  font-size: .875rem;
-  font-weight: 300;
   margin: 2.5rem 0px;
 }
 
