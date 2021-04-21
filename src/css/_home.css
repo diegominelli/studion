@@ -3,6 +3,15 @@
   color: #FFF;
 }
 
+.slider-prev-arrow {
+  z-index: 1;
+  left: 0;
+}
+
+.slider-next-arrow {
+  right: 0;
+}
+
 .slide {
   position: relative;
   height: 90vh;
