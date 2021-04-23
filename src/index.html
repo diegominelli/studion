@@ -10,37 +10,39 @@
 
 <body>
   <nav class="navbar">
-    <h1 class="logo-studion">
-      Studi<span class="copy-primary">on</span>
-      <span class="studion-subtitle">Eventos</span>
-    </h1>
-    <ul class="navbar-links">
-      <li>
-        <a href="#empresa">
-          Empresa
-        </a>
-      </li>
-      <li>
-        <a href="#eventos">
-          Eventos
-        </a>
-      </li>
-      <li>
-        <a href="#galeria">
-          Galeria
-        </a>
-      </li>
-      <li>
-        <a href="#depoimento">
-          Depoimentos
-        </a>
-      </li>
-      <li>
-        <a href="#contato">
-          Contatos
-        </a>
-      </li>
-    </ul>
+    <div class="container navbar-container">
+      <h1 class="logo-studion">
+        Studi<span class="copy-primary">on</span>
+        <span class="studion-subtitle">Eventos</span>
+      </h1>
+      <ul class="navbar-links">
+        <li>
+          <a href="#empresa">
+            Empresa
+          </a>
+        </li>
+        <li>
+          <a href="#eventos">
+            Eventos
+          </a>
+        </li>
+        <li>
+          <a href="#galeria">
+            Galeria
+          </a>
+        </li>
+        <li>
+          <a href="#depoimento">
+            Depoimentos
+          </a>
+        </li>
+        <li>
+          <a href="#contato">
+            Contatos
+          </a>
+        </li>
+      </ul>
+    </div>
   </nav>
 
   <header>
@@ -60,40 +62,54 @@
   </header>
 
   <main>
-    <section>
-      <ul>
+    <section id="counter">
+      <ul class=" container counter-container">
         <li>
-          <h3>+ de 500 </h3>eventos realizados
+          <h3>+ de 500
+            <small>
+              eventos realizados
+            </small>
+          </h3>
         </li>
         <li>
-          <h3>+ de 1.000.00 </h3>de ingressos vendidos
+          <h3>+ de 1.000.00
+            <small>
+              de ingressos vendidos
+            </small>
+          </h3>
         </li>
         <li>
-          <h3>+ de 300 </h3>empresas atendidas
+          <h3>+ de 300
+            <small>
+              empresas atendidas
+            </small>
+          </h3>
         </li>
       </ul>
     </section>
 
-    <section>
-      <div>
-        <img src="./images/institutional.jpg" alt="">
+    <section class="container institutional">
+      <img class="institutional-image" src="./images/institutional.jpg" alt="Studion institutional">
+      <div class="institutional-copy">
         <h6>Fazemos o seu evento acontecer</h6>
         <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta, itaque cumque. Ut eum veritatis sint iure
           hic suscipit nulla, corporis facere cumque, quos ad molestiae ratione molestias, vitae doloremque! Quos?
         </p>
-        <button>Saiba Mais</button>
+        <button class="btn btn-institutional">Saiba Mais</button>
       </div>
     </section>
 
-    <section>
-      <div>
-        <h6>
-          Você informa a temática e nós planejamos um evento com a tecnoligia e
-        </h6>
-        <h2><span>Muito+ </span>Diversão</h2>
-        <button>Fazer cotação</button>
+    <section class="quote">
+      <div class="container quote-container">
+        <div class="quote-copy">
+          <h6>
+            Você informa a temática e nós planejamos um evento com tecnologia e
+          </h6>
+          <h2><span class="copy-primary">Muito+ </span>Diversão</h2>
+          <button class="btn btn-quote">Fazer cotação</button>
+        </div>
       </div>
     </section>
   </main>
