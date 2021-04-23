@@ -1,4 +1,14 @@
 $(document).ready(() => {
+  /* MENU */
+
+  $(".navbar-mobile").on("click", function () {
+    $(".navbar-links").toggleClass("active");
+    $(this).find("i").toggleClass("fa-bars");
+    $(this).find("i").toggleClass("fa-times");
+  });
+
+  /* CARROSSEL */
+
   const slickOptions = {
     autoplay: true,
     dots: false,
